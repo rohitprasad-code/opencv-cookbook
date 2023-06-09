@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Me.jpg', -1)
-img2 = cv2.imread('Logo.png', -1)
+img = cv2.imread('data/Me.jpg', -1)
+img2 = cv2.imread('data/Logo.png', -1)
 
 print(img.shape)    # returns a tuple of number of rows, columns and channels
 print(img.size)     # returns total number of pixels is accessed

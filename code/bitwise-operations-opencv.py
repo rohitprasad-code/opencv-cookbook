@@ -3,7 +3,7 @@ import numpy as np
 
 img1 = np.zeros((640, 640, 3), np.uint8)
 img1 = cv2.rectangle(img1, (286, 304), (435, 456), (255, 255, 255), -1) # x1, y1, x2, y2
-img2 = cv2.imread('Me.jpg')
+img2 = cv2.imread('data/Me.jpg')
 
 bitAnd = cv2.bitwise_and(img2, img1)
 bitOr = cv2.bitwise_or(img2, img1)

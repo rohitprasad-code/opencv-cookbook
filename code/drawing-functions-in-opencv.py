@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# img = cv2.imread('Me.jpg', 1)
+# img = cv2.imread('data/Me.jpg', 1)
 img = np.zeros([512, 512, 3], np.uint8) # creates a black image
 
 img = cv2.line(img, (0, 0), (255, 255), (255, 0, 0), 5) # draws a line from (0, 0) to (255, 255) with color (bgr)->(255, 0, 0) and thickness 5

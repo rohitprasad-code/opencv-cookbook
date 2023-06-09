@@ -21,7 +21,7 @@ def click_event(event, x, y, flags, param):
         cv2.imshow('image', img)     
         
 # img = np.zeros((512,512,3), np.uint8)
-img = cv2.imread('Me.jpg', 1)
+img = cv2.imread('data/Me.jpg', 1)
 
 cv2.imshow('image', img)
 

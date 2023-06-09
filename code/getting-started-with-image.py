@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('Me.jpg', 0) # 0 for grayscale, 1 for color, -1 for unchanged
+img = cv2.imread('data/Me.jpg', 0) # 0 for grayscale, 1 for color, -1 for unchanged
 
 # prints the array of pixels
 print(img) 
